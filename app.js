@@ -44,6 +44,6 @@ app.use("*", (req, res, next) => {
 // Glodal error handling middelware
 app.use(globalError);
 
-app.listen(process.env.PORT || 4000, () => {
+app.listen(process.env.PORT || 5001, () => {
   console.log("Server is listening ............");
 });
